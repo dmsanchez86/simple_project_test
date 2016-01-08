@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "panel"
+AuthUserFile "/home/s18ea85d/.htpasswds/public_html/lubricam.com/PANEL/passwd"
+require valid-user

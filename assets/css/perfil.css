@@ -1,0 +1,12 @@
+.video
+{
+    display: inline-block;
+    float: left;
+}
+.foto-perfil
+{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,12 @@
+.visible
+{
+    display: block;
+}
+.oculto
+{
+    display: none;
+}
+.limpia
+{
+    clear: both;
+}

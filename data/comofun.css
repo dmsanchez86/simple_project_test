@@ -1,0 +1,393 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+secction {
+
+}
+footer {
+
+}
+nav {
+
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(../img/cabecera.jpg);
+	background-repeat:repeat;
+
+}
+
+body,td,th {
+	color: #000000;
+	font-size: 16px;
+	vertical-align:top;
+	border-color:#333333;	
+	text-align:left;
+}
+
+a:link {
+	color: #FFFFFF;
+	font-size:14px;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	font-size:14px;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	font-size:14px;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	font-size:14px;
+	text-decoration: none;
+}
+a {
+	color: #FFFFFF;
+	font-size:14px;
+	text-decoration: none;
+
+}
+
+
+.cabecera {
+	width:100%;
+
+	height:125px;
+	float:left;
+	background-image:url(../img/cabecera.jpg);
+	background-repeat:repeat-x;
+}
+
+.cuerpo {
+	width:90%;
+	height:auto;
+	min-height:700px;
+	background-color:#ffffff;
+	display: inline-block;
+	border-bottom: 40px solid #ddd9c3;
+	border-left: 5px solid #ddd9c3;
+	border-right: 5px solid #ddd9c3;
+	border-top: 40px solid #ddd9c3;
+	text-align:left;
+	font-size:16px;
+	padding: 25px;
+}
+.BarMenuCF {
+	width:100%;
+	float:left;
+	height:auto;
+	margin-bottom:-1px;
+	display: inline-block;
+}
+.BotCF {
+	text-decoration: none;
+	display: inline-block;
+	width:auto;
+	height:auto;
+	padding: 5px;
+	color:#FFFFFF;
+	margin: 0 0 0 5px;
+	
+}
+.BotCF:hover {
+	text-decoration:none;
+	display: inline-block;
+	color: #000000;
+	font-size:14px;
+	background-color: #ddd9c3;
+	padding: 5px;
+}
+.current {
+	text-decoration:none;
+	display: inline-block;
+	color: #000000;
+	font-size:14px;
+	background-color: #ddd9c3;
+	padding: 5px;
+}
+.current a, hover, link, visited, active{
+	text-decoration:none;
+	display: inline-block;
+	color: #000000;
+	font-size:14px;
+	background-color: #ddd9c3;
+	padding: 5px;
+}
+.pie {
+	width:100%;
+	height:auto;
+	background-color:#000;
+	float:left;
+	text-align:center;
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+.logtexpie {
+	background-image:url(../img/logo_text.png);
+	background-repeat:no-repeat;
+	float:right;
+	width:274px;
+	height:70px;
+	opacity: .50;
+	margin-right: 125px;
+	margin-top: 15px;
+	
+}
+
+.logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	float:left;
+	width:79px;
+	height:97px;
+	margin: 0px 5px 0 10px;
+	position:absolute;
+}
+.logo_text {
+	background-image:url(../img/logo_text.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	float:left;
+	width:274px;
+	height:70px;
+	margin: 0px 0 0 94px;
+	position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.markmenu {
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textpie {
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:center;
+	margin: 25px 0 25px 0;
+}
+.contcols {
+	text-align:left;
+	width:auto;
+	height:auto;
+}
+.hcp {
+	font-size:20px;
+	color:#ff0861;
+}
+
+
+.comofun {
+	float:right;
+	height:auto;
+	width:auto;
+}
+.a comofun {
+	font-size:12px;
+	color:#FFFFFF;
+}
+select {
+	width:100%;
+	height:auto;
+	border-style:none;
+}
+.banner {
+	width:auto;
+	height:auto;
+	float:left;
+	margin: 28px 0 0 380px;
+	font-weight:bold;
+	color:#fff;
+	position:absolute;
+}
+.texbanner {
+	font-weight:bold;
+	color:#c61863;	
+}
+
+.markvid {
+	width:300px;
+	height:195px;
+
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	margin: 5px 10px 5px 10px;
+
+display: inline-block;
+}
+
+.markvid:hover{
+	width:300px;
+	height:195px;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	margin: 5px 10px 5px 10px;	
+	opacity: .80;
+
+display: inline-block;
+}
+
+
+.BanMVTop {
+	width:100%;
+	height:25px;
+	opacity: .50;
+	background-color:#000;
+	position:relative;
+	font-size:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-radius: 10px 10px 0 0;
+
+}
+
+
+.BanMVbottom {
+	width:100%;
+	height:25px;
+	opacity: .60;
+	background-color:#000;
+	position:relative;
+	font-size:16px;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-top: -25px;
+	border-radius: 0 0 10px 10px;
+
+}
+
+.botonplay {
+	position:absolute;
+	background-image:url(../img/botonplay.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:120px;
+	height:120px;
+	margin-top: 10px;
+	margin-left: 80px;
+
+
+}
+.fichas_gratis {
+	width:200px;
+	height: 25px;
+	float:right;
+	background-color:#c61863;
+	border: 1px solid #c61863;
+	color:#ddd9c3;
+	font-weight:bold;
+
+	margin: 45px 10px 0 10px;
+
+	
+
+	text-align:center;
+
+}
+.fichas_gratis a, hover, link, visited, active{
+text-decoration:none;
+
+}
+.como_funciona {
+	width:170px;
+	height: 25px;
+	float:right;
+	border: 1px solid #c61863;
+	color:#ddd9c3;
+	font-weight:bold;
+
+	margin: 45px 10px 0 10px;
+
+
+	text-align:center;	
+}
+.pag {
+	display: inline-block;
+	border: 1px solid #c61863;
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	margin: 5px;
+	padding:5px;
+	border-radius: 5px;
+	min-width: 25px;
+}
