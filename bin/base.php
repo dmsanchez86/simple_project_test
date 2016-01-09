@@ -1049,6 +1049,9 @@ class webchat{
             </div>
             <?php 
           }
+              <!-- <img style="margin:0;"src="img/b-d.png"/> -->
+            </div>
+          <?php }
           
           if(isset($_SESSION["codtemp"])){
 
@@ -1067,6 +1070,9 @@ class webchat{
                       $text_bold = $fichas <= 0 ? '<span style="color: #E61108;font-size:0.7em;"><b>'.$nombre_usu.'</b> | </span><b style="color:#E61108; font-size:0.7em;">NO DISPONE DE TOKENS</b>' : '<span style="color: #111;"><b>'.$nombre_usu.'</b> | </span><b style="color: #111;"><b id="myWatch"></b> Tokens</b>';
 
                       echo $text_bold. "&nbsp;&nbsp;&nbsp;<img src='img/b-d.png' />";
+                      $text_bold = $fichas <= 0 ? '<span style="color: #E61108;font-size:0.7em;"><b>'.$nombre_usu.'</b> | </span><b style="color:#E61108; font-size:0.7em;">NO DISPONE DE TOKENS</b>' : '<span style="color: #0086D1;"><b>'.$nombre_usu.'</b> | </span><b>Tokens: <b id="myWatch"></b></b>';
+
+                      echo $text_bold;
                     ?></a>
                   <!-- <li><a href="index.php?m=66">Configuraci&oacute;n</a></li> -->
                   <!-- <li><a href="index.php?m=">Blog LubriCam</a></li> -->
@@ -1227,6 +1233,39 @@ class webchat{
 
     ?>
     <footer>
+<<<<<<< HEAD
+=======
+      <div id="pie" class="pie">	 
+        <!-- aplicando ventana de transmitete -->
+        <div  id="caja2" style="padding:0px;" >
+          <form id="retrans" method="post" action="#retrans"  style="background-image:url(img/emitir.png);">	
+            <p id="login_error" style="font:calibri(Body) #1E1C11;font-size:20px;font-weight:bold;">
+              <font style="margin-left:150px;">Aviso Legal en Retransmisi&oacuten</font>
+            </p>
+  		      <div style="width:707px;height:150px;margin-left: auto;margin-right: auto;background:white;border:#BFBFBF;">
+  		        <p style="color:#00B0F0;font:calibri(Body);font-weight:bold;margin-legt:12px;">
+                T&eacuterminos y condiciones
+              </p>
+  	          <p style="font:calibri(Body)  #1E1C11 ;font-size:10px;margin-left:8px;margin-right:8px;">
+                Este sitio web contiene informaci&oacuten, enlaces, im&aacutegenes y v&iacutedeos de contenido sexual expl&iacutecito (colectivamente, el "material sexualmente expl&iacutecito"). No contin&uacutee si: (i) que no son por lo menos 18 años de edad o mayores de edad en cada jurisdicci&oacuten en la que se debe o puede ver el material sexualmente expl&iacutecito, el que sea mayor (la "mayor&iacutea de edad") , (ii) dicho material le ofende, o (iii) de ver el material sexualmente explícito no es legal en todos y cada comunidad donde se elige para visualizarla.
+                Al optar por entrar en este sitio web usted est&aacute afirmando que las siguientes declaraciones son verdaderas y correctas:
+                He alcanzado la mayoría de edad en mi jurisdicci&oacuten;
+                El material sexualmente expl&iiacutecito que voy a ver es para mi uso personal y no expondr&ecute los menores a dicho material;
+                He alcanzado la mayor&iacutea de edad en mi jurisdicci&oacuten;
+              </p>
+  		      </div>
+  		      <p style="margin-left:40px;margin-top:20px;">
+              <input type="submit" value="Salir" style="border-radius: 1px 1px 1px 1px;-moz-border-radius: 1px 1px 1px 1px;-webkit-border-radius: 1px 1px 1px 1px;border: 0px solid #000000;"class="c3" onclick="closebox()" />
+              <input type="submit" value="Entrar" class="c2" style="margin-left:5px;border-radius: 1px 1px 1px 1px;-moz-border-radius: 1px 1px 1px 1px;-webkit-border-radius: 1px 1px 1px 1px;border: 0px solid #000000;" onclick="window.location.href('index.php?m=44');" />
+  		      </p>
+            <p style="margin-left:150px;">
+              <img style="margin-left:auto;margin-right:auto;" src="./img/seguridad.png"/>
+            </p>
+          </form>
+        </div>
+        <!-- //Contacta con nosotros -->
+        <!-- //Finaliza Soporte -->
+      </div>
       <div class="textpie">
         <a href="faqs.html#Nuestros%20T%C3%A9rminos%20y%20Condiciones%20de%20Uso"> Empresa y Equipo</a><a> | </a>
         <a href="faqs.html#Nuestra%20Pol%C3%ADtica%20de%20Privacidad%20y%20Protecci%C3%B3n%20de%20Datos"> &#191;C&oacutemo funciona&#63;</a><a> | </a>
