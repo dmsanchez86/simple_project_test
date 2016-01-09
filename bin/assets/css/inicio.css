@@ -1,0 +1,188 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+
+secction {
+
+}
+footer {
+
+}
+nav {
+
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	color:#000000;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+body,td,th {
+	color: #00135f;
+	font-size: 14px;
+	vertical-align:top;
+	border-color:#333333;
+	background-color:#333333;
+}
+
+a:link {
+	color: #0099FF;
+	font-size:16px;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	font-size:16px;
+	color: #0099FF;
+}
+a:hover {
+	text-decoration:underline;
+	color: #0099FF;
+	font-size:16px;
+}
+a:active {
+	text-decoration: none;
+	color: #0099FF;
+	font-size:16px;
+}
+a {
+	color: #0099FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+
+}
+
+
+@font-face {
+font-family: birds-of-paradise.ttf;
+src: url(../fonts/birds-of-paradise.ttf) format("truetype");
+}
+
+.marco {
+	width:450px;
+	height:auto;
+
+	margin-top: 55px;
+
+	border-radius: 10px;
+
+	
+	
+    background: #ded5ba;
+    border-color: #c7c7c7 #c3c3c3 #bebebe;
+    box-shadow: 0 1px 1px #ebebeb, inset 0 1px 0 #f3f3f3;
+
+    background: -moz-linear-gradient(top,  #efefef, #efefef, #ded5ba);
+    background: -webkit-linear-gradient(top,  #efefef, #efefef, #ded5ba);
+    background: -o-linear-gradient(top,  #efefef, #efefef, #ded5ba);
+    background: -ms-linear-gradient(top,  #efefef, #efefef, #ded5ba);
+    background: linear-gradient(top,  #efefef, #efefef, #ded5ba);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#ded5ba');
+}
+.IntMar {
+	background-image:url(../../img/Imagen10.png);
+	background-position:center;
+	background-position:top;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+
+	color:#000000;
+}
+
+
+.textini {
+	margin-top:100px;
+	width:100%;
+	height:auto;
+	font-size:16px;
+	color:#0066FF;
+	float:left;
+
+}
+
+.cajaini {
+	width: 90%;
+	height: 35px;
+	margin: 20px 20px 0px 20px;
+	text-align:center;
+	font-size:16px;
+}
+.inputini {
+	width: 90%;
+	height: 45px;
+	margin: 20px 20px 0px 20px;
+	text-align:center;
+	font-size:26px;
+	background-color:#66CC00;
+}
+
+.boton_registro{
+	width: 90%;
+	height: 45px;
+	margin: 20px 20px 0px 20px;
+	text-align:center;
+	font-size:24px;
+	background-color:#66CC00;
+	text-decoration:none;
+	color:#000000;
+}
+
+
+.hini {
+	font-family: birds-of-paradise.ttf;
+	text-align:right;
+	font-size:22px;
+
+	color:#000;
+	margin-top: 50px;
+	float:right;
+}
+
+.acepini {
+	margin: 15px;
+	background-color:#CCCCCC;
+	padding:10px;
+	float:left;
+	border-radius: 5px;
+	border: 1px solid #999999;
+
+}
+
+.error, .notice, .success {padding:.8em;margin-bottom:1.6em;border:2px solid #ddd;display: inline-block;}
+.error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
+.notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
+.success {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a {color:#8a1f11; background:none; padding:0; margin:0; }
+.notice a {color:#514721; background:none; padding:0; margin:0; }
+.success a {color:#264409; background:none; padding:0; margin:0; }
+
+
+.CajaStyleCod {
+	width:100px;
+	height:30px;
+	background-image:url(../img/01.jpg);
+	background-position:top;
+	vertical-align:top;
+	margin-left:15px;
+	margin-top:3px;
+	font-size:16px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	border-style: solid ; border-width:1px; border-color:#000000;
+}
+
